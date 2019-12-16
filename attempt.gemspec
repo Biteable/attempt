@@ -2,7 +2,7 @@ require 'rubygems'
 
 Gem::Specification.new do |spec|
   spec.name       = 'attempt'
-  spec.version    = '0.4.0'
+  spec.version    = '0.5.0'
   spec.author     = 'Daniel J. Berger'
   spec.license    = 'Artistic 2.0'
   spec.email      = 'djberg96@gmail.com'
@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.test_file  = 'test/test_attempt.rb'
   spec.files      = Dir['**/*'].reject{ |f| f.include?('git') }
   spec.cert_chain = Dir['certs/*']
-  
+
   spec.extra_rdoc_files  = ['README','CHANGES','MANIFEST']
 
   spec.metadata = {
@@ -21,7 +21,7 @@ Gem::Specification.new do |spec|
     'wiki_uri'        => 'https://github.com/djberg96/attempt/wiki'
   }
 
-  spec.add_dependency('structured_warnings', '~> 0.3.0')
+  spec.add_dependency('structured_warnings', '~> 0.4.0')
   spec.add_dependency('safe_timeout', '~> 0.0.5')
 
   spec.add_development_dependency('test-unit')

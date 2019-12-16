@@ -1,3 +1,7 @@
+== 0.5.0 - 16-Dec-2019
+* The structured_warnings gem requirement was updated to 0.4.0 or later. This
+  is necessary if you are using Ruby 2.5 or later.
+
 == 0.4.0 - 5-Sep-2017
 * Switched constructor to use keyword arguments.
 * Replaced Timeout with SafeTimeout and added the safe_timeout dependency.
